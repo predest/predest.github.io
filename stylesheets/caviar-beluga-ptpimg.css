@@ -7,6 +7,11 @@
 /* External fonts */
 /* @import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i|Roboto+Mono:400,400i,700,700i"); */
 /* Base */
+/* Updates */
+/* 1. Change image url to ptpimg */
+/* 2. Remove external font and change font family */
+/* 3. Change some font size from 14px to 12px */
+/* 4. Change sidebar head padding to 11 */
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +19,7 @@
 
 body {
   width: 100%;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Tahoma, Arial, sans-serif;
   font-size: 12px;
   color: #e9e9e9;
   background: #23252a;
@@ -137,7 +142,7 @@ input[type=reset] {
   background-color: #50aca6;
   border: 1px solid #50aca6;
   position: relative;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Tahoma, Arial, sans-serif;
   font-weight: 400;
   padding: 10px 9px;
   -webkit-transition: none;
@@ -195,12 +200,12 @@ input[type=reset][disabled] {
 
 select {
   padding: 5px;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Tahoma, Arial, sans-serif;
   outline: 0;
 }
 
 textarea {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Tahoma, Arial, sans-serif;
   font-size: 12px;
   position: relative;
   bottom: 5px;
@@ -208,22 +213,22 @@ textarea {
 }
 
 ::-webkit-input-placeholder {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Tahoma, Arial, sans-serif;
   color: #6a6c71;
 }
 
 :-moz-placeholder {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Tahoma, Arial, sans-serif;
   color: #6a6c71;
 }
 
 ::-moz-placeholder {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Tahoma, Arial, sans-serif;
   color: #6a6c71;
 }
 
 :-ms-input-placeholder {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Tahoma, Arial, sans-serif;
   color: #6a6c71;
 }
 
@@ -760,7 +765,7 @@ body#requests #quickreplypreview {
   top: 0;
   font-size: 26px;
   font-weight: 400;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Tahoma, Arial, sans-serif;
   color: white;
   text-transform: uppercase;
 }
@@ -872,7 +877,7 @@ body div#DonInfo {
   width: 50px;
   height: 45px;
   font-size: 0.75em;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Tahoma, Arial, sans-serif;
   font-weight: 400;
   z-index: 1;
 }
@@ -1318,7 +1323,7 @@ body#index .home .of_the_month b {
   font-size: 1.3em;
 }
 body#index .home .month_rating {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Tahoma, Arial, sans-serif;
   font-size: 4em;
   font-weight: 300;
   color: #c5f6c6;
@@ -2662,7 +2667,7 @@ body div.contenth textarea {
   -moz-transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease;
   -o-transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease;
   transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Tahoma, Arial, sans-serif;
   padding: 2px 3px;
 }
 body div.contenth textarea:hover {
