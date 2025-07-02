@@ -15,7 +15,7 @@
 body {
   width: 100%;
   font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   color: #e9e9e9;
   background: #23252a;
 }
@@ -201,7 +201,7 @@ select {
 
 textarea {
   font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   position: relative;
   bottom: 5px;
   resize: vertical;
@@ -234,7 +234,7 @@ tbody {
 body blockquote,
 body pre {
   margin: 7px 0;
-  padding: 14px;
+  padding: 12px;
   border: 1px dashed #5b5e63;
   color: #e9e9e9;
   background-color: #272a30;
@@ -243,7 +243,7 @@ body pre {
 pre,
 .code {
   margin: 7px 0;
-  padding: 14px;
+  padding: 12px;
   border: 1px dashed #5b5e63;
   color: #e9e9e9;
   background-color: #272a30;
@@ -329,7 +329,7 @@ ul.thin li {
 
 #content {
   width: 1001px;
-  font-size: 10px;
+  font-size: 12px;
   overflow: hidden;
   position: relative;
 }
@@ -435,7 +435,7 @@ p.min_padding {
 
 .box {
   padding: 10px;
-  font-size: 10px;
+  font-size: 12px;
   background-color: #2c2f36;
 }
 
@@ -451,7 +451,7 @@ p.min_padding {
   color: #e9e9e9;
   background: #55585f;
   font-weight: 700;
-  font-size: 10px;
+  font-size: 12px;
   border-bottom: none;
   position: relative;
   margin-top: -10px;
@@ -499,8 +499,8 @@ p.min_padding {
 }
 
 .body {
-  font-size: 14px;
-  padding: 14px;
+  font-size: 12px;
+  padding: 12px;
 }
 
 table {
@@ -537,7 +537,7 @@ td.body {
   color: #e9e9e9;
   background: #55585f;
   font-weight: 700;
-  font-size: 10px;
+  font-size: 12px;
   border-bottom: none;
 }
 .colhead b,
@@ -561,7 +561,7 @@ td.colhead {
   color: #e9e9e9;
   background: #55585f;
   font-weight: 700;
-  font-size: 10px;
+  font-size: 12px;
   border-bottom: none;
   vertical-align: middle;
 }
@@ -662,7 +662,7 @@ div.contenth #quickpost + br {
 
 #quickreplypreview {
   padding: 30px 10px 20px !important;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   word-wrap: break-word;
 }
@@ -770,7 +770,7 @@ body#requests #quickreplypreview {
   right: 58px;
   width: 50%;
   text-align: right;
-  font-size: 14px;
+  font-size: 12px;
   color: #c5f6c6;
 }
 #userinfo ul li {
@@ -1422,7 +1422,7 @@ body#torrents .colhead td[style="text-align:right"] {
 }
 
 #torrent_table {
-  font-size: 10px;
+  font-size: 12px;
 }
 @media (min-width: 1221px) {
   body#torrents #torrent_table {
@@ -1944,7 +1944,7 @@ body#requests .box.pad {
   width: 765px;
   overflow: auto;
   padding: 1px;
-  font-size: 14px;
+  font-size: 12px;
 }
 .review_details {
   font-style: italic;
@@ -1971,7 +1971,7 @@ body#requests .box.pad {
 }
 
 body#reviews p[style="font-size: 12pt"] {
-  font-size: 14px !important;
+  font-size: 12px !important;
 }
 body#reviews img[style="float: left; padding-right: 10px; padding-bottom: 10px;"] {
   padding-bottom: 0 !important;
@@ -1980,7 +1980,7 @@ body#reviews thead tr {
   color: #e9e9e9;
   background: #55585f;
   font-weight: 700;
-  font-size: 10px;
+  font-size: 12px;
   border-bottom: none;
 }
 body#reviews thead tr b,
@@ -2106,7 +2106,7 @@ body#userhistory td.avatar {
 
 div.user_details {
   padding: 10px;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .forum_group_header {
@@ -2138,7 +2138,7 @@ body#forums #content > br {
   display: none;
 }
 body#forums div.body {
-  font-size: 10px;
+  font-size: 12px;
   padding: 4px;
 }
 body#forums form .cat_list {
@@ -2398,8 +2398,8 @@ body#user #section3 > .tvshows .colhead.snatches + div.pad img.toolTip {
   height: 233px;
 }
 body#user #section1 > .profile > .pad {
-  font-size: 14px;
-  padding: 14px;
+  font-size: 12px;
+  padding: 12px;
 }
 
 #userform textarea {
@@ -2752,8 +2752,8 @@ body div.contenth textarea:focus {
 }
 
 #news_post .pad {
-  font-size: 14px;
-  padding: 14px;
+  font-size: 12px;
+  padding: 12px;
 }
 
 .tickets_search {
@@ -3021,11 +3021,11 @@ body#tvnews .main_column .box {
   margin-bottom: 2px;
 }
 body#tvnews .main_column .box .pad {
-  font-size: 14px;
-  padding: 14px;
+  font-size: 12px;
+  padding: 12px;
 }
 body#tvnews .thin > .linkbox + .box.pad {
-  font-size: 14px;
+  font-size: 12px;
   padding: 24px;
 }
 body#tvnews .thin > .linkbox + .box.pad .right {
@@ -3066,7 +3066,7 @@ body#collages .sidebar > .box:first-child > .pad {
 }
 body#collages .sidebar textarea[name=body] {
   margin-top: 10px;
-  font-size: 10px;
+  font-size: 12px;
   width: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -3127,7 +3127,7 @@ body#recommend img[src$="/common/symbols/info_icon.png"] {
 }
 body#recommend #info_dialog {
   background: #2c2f36 !important;
-  font-size: 14px !important;
+  font-size: 12px !important;
 }
 body#recommend #info_dialog a {
   color: #85878f !important;
@@ -3157,8 +3157,8 @@ body#news .head {
 }
 body#blog .thin > .box > .pad,
 body#news .thin > .box > .pad {
-  font-size: 14px;
-  padding: 14px;
+  font-size: 12px;
+  padding: 12px;
 }
 
 body#blog .thin > .box.pad[style="padding:20px 10px 10px 10px;"] {
@@ -3170,7 +3170,7 @@ body#actorshowcase .thin {
   font-size: 0;
 }
 body#actorshowcase .thin > * {
-  font-size: 10px;
+  font-size: 12px;
 }
 body#actorshowcase .thin > h2 {
   font-size: 14.4px;
@@ -3189,7 +3189,7 @@ body#actorshowcase .thin > table tr:first-child {
   color: #e9e9e9;
   background: #55585f;
   font-weight: 700;
-  font-size: 10px;
+  font-size: 12px;
   border-bottom: none;
 }
 body#actorshowcase .thin > table tr:first-child b,
@@ -3414,7 +3414,7 @@ body#rules .thin > h3:first-child:not([id]) + .box.pad > table:first-child tr:la
   border-bottom: none;
 }
 body#rules .thin > h3 + .pad {
-  padding: 14px !important;
+  padding: 12px !important;
 }
 body#rules .thin .pad {
   padding: 0 !important;
@@ -3422,7 +3422,7 @@ body#rules .thin .pad {
 body#rules .thin .pad:first-of-type > p:first-child {
   background-color: #23252a;
   margin: 0;
-  padding: 14px 5px;
+  padding: 12px 5px;
 }
 
 body#irc #content > .thin + form {
@@ -3432,7 +3432,7 @@ body#irc .linkbox + .box.pad:not([style]) {
   background: none;
 }
 body#irc .pad {
-  padding: 14px !important;
+  padding: 12px !important;
 }
 body#irc .pad > table:only-child {
   margin: -14px;
@@ -3448,7 +3448,7 @@ body#rules .box,
 body#rules .colhead,
 body#irc .box,
 body#irc .colhead {
-  font-size: 14px;
+  font-size: 12px;
 }
 body#rules td,
 body#irc td {
@@ -3465,8 +3465,8 @@ body#kb .sidebar form input[type=text] {
   box-sizing: border-box;
 }
 body#kb .main_column .box .pad {
-  font-size: 14px;
-  padding: 14px;
+  font-size: 12px;
+  padding: 12px;
 }
 
 body#reports .box.pad {
@@ -3477,7 +3477,7 @@ body#reports .box.pad:first-of-type, body#reports .box.pad:last-of-type {
   padding: 20px;
 }
 body#reports .box.pad > table[style="overflow-x:auto;"] {
-  font-size: 14px;
+  font-size: 12px;
   text-align: left;
   margin-bottom: 2px;
 }
@@ -4413,7 +4413,7 @@ div[style="background-image:url(https://cdn.broadcasthe.net/common/lumen/lumen_s
 
 body#index #content > div.thin.home > div.main_column > div:last-child > ul {
   font-size: 0;
-  padding: 14px;
+  padding: 12px;
 }
 body#index #content > div.thin.home > div.main_column > div:last-child > ul div[style="float:left; width:285px;"] {
   float: none !important;
@@ -4421,7 +4421,7 @@ body#index #content > div.thin.home > div.main_column > div:last-child > ul div[
   display: inline-block;
   vertical-align: top;
   text-align: left;
-  font-size: 10px;
+  font-size: 12px;
 }
 body#index #content > div.thin.home > div.main_column > div:last-child > ul div[style="float:left; width:285px;"]:first-child {
   text-align: right;
@@ -4461,7 +4461,7 @@ div.contenth[style="color: #000;"] .lp-disable-search[style="background: #222222
 
 div[style="margin-top:5px; padding:5px; border: 1px solid #333;"] {
   margin: 7px 0 !important;
-  padding: 14px !important;
+  padding: 12px !important;
   border: 1px dashed #5b5e63 !important;
   color: #e9e9e9;
   background-color: #272a30;
@@ -4506,7 +4506,7 @@ body#torrents table.box[style="font-size: 7pt; margin-top: 5px; width: 170px"] #
 }
 
 body#user #content > .thin > div.box.pad:nth-child(2) > p:only-child, body#user #content > .thin > div.box.pad:nth-child(3) > p:only-child {
-  padding: 14px;
+  padding: 12px;
 }
 body#user #content > .thin > form[action="user.php"] td {
   padding: 10px;
@@ -4517,9 +4517,9 @@ body#user #content > .thin > form[action="user.php"] td.label + td > input[type=
 }
 
 #forums #content > .thin > table > tbody:only-child > tr:only-child > td:only-child {
-  padding: 14px;
+  padding: 12px;
 }
 
 body#snatchlist #SnatchData > table:nth-child(3) td:only-child {
-  padding: 14px;
+  padding: 12px;
 }
