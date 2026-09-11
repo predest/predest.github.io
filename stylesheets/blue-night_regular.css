@@ -7207,6 +7207,10 @@ body#user .user_title {
   margin: 0;
 }
 
+#content #trading_panel > #items {
+  min-width: 400px;
+}
+
 #content #trading_panel .trade_table {
   background-image: none;
 }
@@ -7270,7 +7274,6 @@ body#user .user_title {
 
 #content #trading_panel .item {
   width: auto;
-  min-width: 400px;
   height: 118px;
   min-height: 0;
   float: none;
