@@ -4961,6 +4961,12 @@ ul.nobullet:has(> .similar_group) > li:not(.similar_group) {
   text-align: center;
 }
 
+#group_description_bbcode,
+#group_cover_textarea {
+  width: 100%;
+  padding: 12px;
+}
+
 /****************************************************************************
 9.6  User profile */
 body#user .user_title {
@@ -6273,7 +6279,7 @@ body#user .user_title {
   border-color: var(--fg-accent);
 }
 
-#content #trading_panel .items-wrapper.custom-state-active {
+#content #trading_panel ul.items-wrapper.custom-state-active {
   background-color: var(--surface-8);
   border-color: var(--fg-accent);
 }
@@ -6768,10 +6774,6 @@ body#user .user_title {
 #equipment #slot_14::after,
 #equipment #slot_15::after { content: "Additional"; }
 
-#content #trading_panel .items-wrapper {
-  overflow-y: auto;
-}
-
 #content #trading_panel #items,
 #content .trade_table {
   box-sizing: border-box;
@@ -6795,7 +6797,6 @@ body#user .user_title {
 }
 
 #content #trading_panel .trade_table .items-wrapper {
-  align-content: start;
   min-height: 180px;
   margin: 0;
   background-color: var(--surface-2);
@@ -7207,22 +7208,21 @@ body#user .user_title {
   margin: 0;
 }
 
-#content #trading_panel > #items {
-  min-width: 400px;
-}
-
 #content #trading_panel .trade_table {
   background-image: none;
 }
 
 #content #trading_panel .items-wrapper {
   flex: 1 1 auto;
+  grid-auto-rows: min-content;
+  align-content: start;
   float: none;
   width: auto;
   height: auto;
   min-height: 0;
   max-height: none;
   margin: 0;
+  overflow-y: auto;
 }
 
 #content #trading_panel .trade_table .name_tag {
@@ -7266,10 +7266,6 @@ body#user .user_title {
 
 #content #trading_panel .trade_value .trade_value_percent {
   float: none;
-}
-
-#content #trading_panel .items-wrapper {
-  grid-auto-rows: auto;
 }
 
 #content #trading_panel .item {
@@ -7388,6 +7384,18 @@ body#user .user_title {
   min-height: 0;
 }
 
+/* trade.css `#trading_panel #items div { display: inline-block }` also hits the
+   perfect-scrollbar rails, so an inactive rail never hides. Restore ps's own toggle. */
+#content #trading_panel > #items .ps-scrollbar-x-rail,
+#content #trading_panel > #items .ps-scrollbar-y-rail {
+  display: none;
+}
+
+#content #trading_panel > #items .ps-active-x > .ps-scrollbar-x-rail,
+#content #trading_panel > #items .ps-active-y > .ps-scrollbar-y-rail {
+  display: block;
+}
+
 #content #trading_panel > h2 {
   visibility: visible;
   margin: 0;
@@ -7458,7 +7466,7 @@ body#user .user_title {
 }
 
 #content #trading_panel > #items {
-  flex: 0 0 260px;
+  flex: 0 0 460px;
 }
 
 #content #trading_panel .trade_table {
@@ -11586,7 +11594,7 @@ colgroup,
 
 @layer ggn {
   #logo {
-    background-image: url("gazellegames-logo.png");
+    background-image: url("https://gazellegames.net/static/styles/game_room/images/gameseries/daysgonelogo.png");
   }
 
   #menu {
@@ -11781,6 +11789,42 @@ colgroup,
 
 .donor_ico {
   margin-left: 4px;
+}
+
+#top10 .top10_poster_grid .collage_images:not(.hidden) {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 190px));
+  justify-content: center;
+  gap: 1.5rem 1rem;
+  padding: 0.75rem 0;
+}
+
+#top10 .top10_poster_grid .collage_images li,
+#top10 .top10_poster_grid .collage_images li a {
+  display: block;
+  width: auto;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+#top10 .top10_poster_grid .collage_images li a img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  max-height: none;
+  aspect-ratio: 190 / 296;
+  margin: 0;
+  object-fit: cover;
+  object-position: top center;
+  box-shadow: 0 0.5rem 1rem rgba(7, 11, 22, 0.55);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#top10 .top10_poster_grid .collage_images li a:hover img {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px #31517d;
 }
 
 /****************************************************************************
@@ -12704,6 +12748,29 @@ body#torrents #content .thin:has(> #non_wiki_editing) td input[type="url"] {
 
 body#torrents #content .thin:has(> #non_wiki_editing) input.weblinks {
   min-width: 240px;
+}
+
+/****************************************************************************
+9.41  Upload form (upload.php). */
+#upload_table #release_title,
+#upload_table #weblinks input,
+#upload_table textarea {
+  width: 100%;
+}
+
+#upload_table #weblinks .weblink {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#upload_table #weblinks .weblink label {
+  display: flex;
+  white-space: nowrap;
+}
+
+#reviews_table [type="url"] {
+  width: 80%;
 }
 
 /****************************************************************************
