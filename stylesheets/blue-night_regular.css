@@ -1,5 +1,5 @@
 @import url("https://nowtl.github.io/ggn-blue-night/blue-night_regular.css");
 
 #logo {
-  background-image: url("daysgonelogo.png");
+  background-image: url("daysgonelogo.png") !important;
 }
