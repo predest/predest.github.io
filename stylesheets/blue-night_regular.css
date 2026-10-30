@@ -3,3 +3,53 @@
 #logo {
   background-image: url("daysgonelogo.png") !important;
 }
+
+/* 1) 隐藏原来 #alerts 里的空壳（只保留我们要的两个链接） */
+#alerts .alertbar:has(> a[href="tools.php"]) {
+  /* 不再作为普通流内容显示 */
+  position: static;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: 0;
+  box-shadow: none;
+  font-size: 0;
+  height: 0;
+  overflow: visible;
+}
+
+/* 2) 把两个链接定位到 #userinfo 内、inline 显示 */
+#userinfo {
+  /* 已是 fixed，作为定位上下文；补一个最小高度避免遮挡 */
+  min-height: 20px;
+}
+
+#alerts .alertbar:has(> a[href="tools.php"]) > a[href="tools.php"],
+#alerts .alertbar:has(> a[href="tools.php"]) > a#clearcache {
+  position: absolute;
+  top: 0.5rem;              /* 与 #userinfo 的 padding 对齐 */
+  z-index: 21;              /* 高于 #userinfo 内容 */
+  display: inline-block;
+  font-size: 0.75rem;
+  line-height: 20px;
+  color: var(--ink-5);
+  white-space: nowrap;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+/* Toolbox 位置：贴在 userinfo 左侧内边距处 */
+#alerts .alertbar:has(> a[href="tools.php"]) > a[href="tools.php"] {
+  left: 15px;
+}
+
+/* Refresh Data 位置：紧跟在 Toolbox 右侧 */
+#alerts .alertbar:has(> a[href="tools.php"]) > a#clearcache {
+  left: calc(15px + 6.5em);  /* 按 Toolbox 文本宽度估算，可微调 */
+}
+
+/* hover 样式沿用主题 */
+#alerts .alertbar:has(> a[href="tools.php"]) > a[href="tools.php"]:hover,
+#alerts .alertbar:has(> a[href="tools.php"]) > a#clearcache:hover {
+  color: var(--ink-0);
+}
